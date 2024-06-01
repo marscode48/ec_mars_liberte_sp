@@ -33,8 +33,10 @@
           </div>
         {%- endif -%}
       {%- when 'textblock' -%}
-        <p>{{ block.settings.heading }}</p>
-        <div>{{ block.settings.text }}</div>
+        <div> {{ block.shopify_attributes }}
+          <p>{{ block.settings.heading }}</p>
+          <div>{{ block.settings.text }}</div>
+        </div>
     {%- endcase -%}
   {%- endfor -%}
 </section>
