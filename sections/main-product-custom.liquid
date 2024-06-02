@@ -33,9 +33,9 @@
           </div>
         {%- endif -%}
       {%- when 'textblock' -%}
-        <div> {{ block.shopify_attributes }}
-          <p>{{ block.settings.heading }}</p>
-          <div>{{ block.settings.text }}</div>
+        <div class="col2list" {{ block.shopify_attributes }} >
+          <p class="col2list_heading">{{ block.settings.heading }}</p>
+          <div class="col2list_text">{{ block.settings.text }}</div>
         </div>
     {%- endcase -%}
   {%- endfor -%}
