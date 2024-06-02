@@ -1,0 +1,22 @@
+.col2list {
+  padding: 1.25rem 0;
+  border-top: 1px #bbb solid;
+
+  &:last-child {
+    border-bottom: 1px #bbb solid;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .col2list {
+    display: flex;
+
+    &_heading {
+      flex: 0 0 25%;
+    }
+
+    &_text {
+      flex: 1;
+    }
+  }
+}

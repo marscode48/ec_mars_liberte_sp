@@ -1,0 +1,19 @@
+.col2list {
+  padding: 1.25rem 0;
+  border-top: 1px #bbb solid;
+}
+.col2list:last-child {
+  border-bottom: 1px #bbb solid;
+}
+
+@media screen and (min-width: 750px) {
+  .col2list {
+    display: flex;
+  }
+  .col2list_heading {
+    flex: 0 0 25%;
+  }
+  .col2list_text {
+    flex: 1;
+  }
+}/*# sourceMappingURL=liberte.css.map */
