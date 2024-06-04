@@ -1,3 +1,13 @@
+<div class="collection-categorytop">
+  <img src="{{ collection.image | img_url: 'master' }}">
+  <div class="collection-categorytop__inner page-width">
+    <h1>
+      {{ collection.title | escape }}
+    </h1>
+    {{ collection.description }}
+  </div>
+</div>
+
 {% schema %}
   {
     "name": "トップセクション",
