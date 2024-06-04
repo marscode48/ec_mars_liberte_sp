@@ -16,4 +16,31 @@
   .col2list_text {
     flex: 1;
   }
+}
+.collection-categorytop {
+  height: 35vh;
+  min-height: 380px;
+  position: relative;
+  overflow: hidden;
+}
+.collection-categorytop img, .collection-categorytop__inner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+}
+.collection-categorytop img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+  opacity: 0.65;
+}
+.collection-categorytop__inner {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=liberte.css.map */
