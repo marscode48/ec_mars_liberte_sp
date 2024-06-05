@@ -23,7 +23,9 @@
           }
         },
         "content": {
-          "type": "content"
+          "type": "content",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -31,10 +33,21 @@
         "title",
         "share",
         "content"
-      ]
+      ],
+      "settings": {
+      }
+    },
+    "article_metafields_products_NmpJdU": {
+      "type": "article-metafields-products",
+      "settings": {
+        "heading": "こちらのページでご紹介した商品",
+        "heading_size": "h2",
+        "btn_text": "詳細を見る"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "article_metafields_products_NmpJdU"
   ]
 }
