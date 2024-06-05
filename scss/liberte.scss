@@ -55,6 +55,30 @@
 /* =============================================
 /  article
 /============================================ */
-#story-top.article-template__hero-container{
+#story-top.article-template__hero-container {
   max-width: 100%;
+
+  @media screen and (min-width: 1920px) {
+    max-width: 1920px;
+  }
+
+  & .mdeia {
+    background: inherit;
+
+    @media screen and (min-width: 990px) {
+      padding-bottom: calc(625px + 2rem) !important;
+    }
+  }
+
+  & img {
+    border-radius: 0 0 25% 25%;
+
+    @media screen and (min-width: 990px) {
+      height: 625px;
+    }
+
+    @media screen and (min-width: 1920px) {
+      border-radius: 0 0 50% 50%;
+    }
+  }
 }

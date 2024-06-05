@@ -50,4 +50,30 @@
 /============================================ */
 #story-top.article-template__hero-container {
   max-width: 100%;
+}
+@media screen and (min-width: 1920px) {
+  #story-top.article-template__hero-container {
+    max-width: 1920px;
+  }
+}
+#story-top.article-template__hero-container .mdeia {
+  background: inherit;
+}
+@media screen and (min-width: 990px) {
+  #story-top.article-template__hero-container .mdeia {
+    padding-bottom: calc(625px + 2rem) !important;
+  }
+}
+#story-top.article-template__hero-container img {
+  border-radius: 0 0 25% 25%;
+}
+@media screen and (min-width: 990px) {
+  #story-top.article-template__hero-container img {
+    height: 625px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #story-top.article-template__hero-container img {
+    border-radius: 0 0 50% 50%;
+  }
 }/*# sourceMappingURL=liberte.css.map */
