@@ -1,3 +1,35 @@
+{%- assign metafields-products = article.metafields.related.product -%}
+
+{%- if metafields-products != blank -%}
+  <section class="page-width element-margin-top">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="title {{ section.settings.heading_size }}">
+        {{ section.settings.heading }}
+      </h2>
+    {%- endif -%}
+    {%- for product in metafields-products.value -%}
+      <ul class="list-unstyled">
+        <li class="metafields-product">
+          <div class="metafields-product_img">
+            <img src="{{ product.featured_image | img_url: 'large' }}" alt="{{ product.featured_image }}">
+          </div>
+          <div class="metafields-product_txt">
+            <div>
+              <h3>{{ product.title }}</h3>
+              <p class="right">{{ product.price_min | money_without_currency }}円（税込）~</p>
+              <p>{{ product.metafields.custom.description | truncate: 150 }}</p>
+            </div>
+            <div class="center">
+              <a class="button btn_link text-white" href="{{ product.url }}">{{ section.settings.btn_text }}</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    {%- endfor -%}
+  </section>
+{%- endif -%}
+
+
 {% schema %}
   {
     "name": "関連商品（メタフィールド）",
