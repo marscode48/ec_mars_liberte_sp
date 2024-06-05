@@ -4,8 +4,15 @@
     <h1>
       {{ collection.title | escape }}
     </h1>
-    {{ collection.description | strip_html | truncate: 120 }}
+    {%- if section.settings.desc_position == 'top' -%}
+      {{ collection.description | strip_html | truncate: 120 }}
+    {%- endif -%}
   </div>
+</div>
+<div class="page-width">
+  {%- if section.settings.desc_position == 'bottom' -%}
+    {{ collection.description }}
+  {%- endif -%}
 </div>
 
 {% schema %}
