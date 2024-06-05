@@ -11,7 +11,32 @@
 {% schema %}
   {
     "name": "トップセクション",
-    "settings": []
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "説明文が長い時、文字以外を使用している場合は画像下がおすすめです。"
+      },
+      {
+        "type": "radio",
+        "id": "desc_position",
+        "label": "説明の表示位置",
+        "options": [
+        {
+          "value": "top",
+          "label": "画像と重ねる"
+        },
+        {
+          "value": "bottom",
+          "label": "画像下に表示"
+        },
+        {
+          "value": "none",
+          "label": "説明を表示しない"
+        }
+        ],
+        "default": "top"
+      }
+    ]
   }
 {% endschema %}
 
