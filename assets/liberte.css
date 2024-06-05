@@ -76,4 +76,35 @@
   #story-top.article-template__hero-container img {
     border-radius: 0 0 50% 50%;
   }
+}
+
+/* =============================================
+/  article-metafields-products
+/============================================ */
+.metafields-product {
+  margin-bottom: 6rem;
+}
+@media screen and (min-width: 750px) {
+  .metafields-product {
+    display: flex;
+  }
+  .metafields-product_img {
+    flex: 3;
+    margin-right: 2.5rem;
+  }
+  .metafields-product_txt {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .metafields-product_txt h3 {
+    margin-top: 0;
+  }
+  .metafields-product_txt .btn_link {
+    margin-bottom: 30px;
+  }
+}
+.metafields-product img {
+  max-width: 100%;
 }/*# sourceMappingURL=liberte.css.map */
