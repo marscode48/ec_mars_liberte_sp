@@ -43,4 +43,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* =============================================
+/  article
+/============================================ */
+#story-top.article-template__hero-container {
+  max-width: 100%;
 }/*# sourceMappingURL=liberte.css.map */
