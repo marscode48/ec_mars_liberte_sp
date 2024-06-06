@@ -1,30 +1,31 @@
 {%- if article and article != empty -%}
-  <div class="card__content">
-    <div class="card__information">
-      <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
-        <a href="{{ article.url }}" class="full-unstyled-link">
-          {{ article.title | truncate: 50 | escape }}
-        </a>
-      </h3>
-      <div class="article-card__info caption-with-letter-spacing h5">
-        {%- if show_date -%}
-          <span class="circle-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
-        {%- endif -%}
-        {%- if show_author -%}
-          <span>{{ article.author }}</span>
-        {%- endif -%}
-      </div>
-      {%- if show_excerpt -%}
-        {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
-          <p class="article-card__excerpt rte-width">
-            {%- if article.excerpt.size > 0 -%}
-              {{ article.excerpt | strip_html | truncatewords: 30 }}
-            {%- else -%}
-              {{ article.content | strip_html | truncatewords: 30 }}
-            {%- endif -%}
-          </p>
-        {%- endif -%}
+
+  {%- if show_date -%}
+    <p class="col2list_heading">
+      {{ article.published_at | time_tag: format: 'date' }}
+    </p>
+  {%- endif -%}
+
+  <div class="col2list_text">
+    <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
+      <a href="{{ article.url }}" class="full-unstyled-link">
+        {{ article.title | truncate: 50 | escape }}
+      </a>
+    </h3>
+    
+    {%- if show_excerpt -%}
+      {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
+        <p class="col2list_text_excerpt">
+          {%- if article.excerpt.size > 0 -%}
+            {{ article.excerpt | strip_html | truncatewords: 30 }}
+          {%- else -%}
+            {{ article.content | strip_html | truncatewords: 30 }}
+          {%- endif -%}
+        </p>
       {%- endif -%}
-    </div>
+    {%- endif -%}
+    {%- if show_author -%}
+      <p class="right">{{ article.author }}</p>
+    {%- endif -%}
   </div>
 {%- endif -%}
