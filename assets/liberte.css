@@ -17,6 +17,27 @@
     flex: 1;
   }
 }
+/* =============================================
+/  Blog - slim
+/============================================ */
+.list-style-none {
+  list-style: none;
+  padding-left: initial;
+}
+
+.col2list_text_excerpt {
+  font-size: 1.4rem;
+}
+
+@media screen and (min-width: 750px) {
+  .col2list.articles {
+    padding: 3rem 1.5rem;
+    align-items: baseline;
+  }
+  .articles .col2list_heading {
+    flex-basis: 10em;
+  }
+}
 .collection-categorytop {
   height: 35vh;
   min-height: 380px;
