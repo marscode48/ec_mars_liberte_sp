@@ -5,24 +5,24 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "footer-2": {
+          "type": "text",
+          "settings": {
+            "heading": "MarsLiverte",
+            "subtext": "<p>一つ一つをハンドメイドで作る、Web限定のアクセサリーショプです。<\/p><p><a href=\"\/pages\/about-us\" title=\"About Us\">MarsLiberteについて<\/a><\/p>"
+          }
+        },
         "footer-1": {
           "type": "link_list",
           "settings": {
             "heading": "Info",
             "menu": "link-list"
           }
-        },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
         }
       },
       "block_order": [
-        "footer-1",
-        "footer-2"
+        "footer-2",
+        "footer-1"
       ],
       "settings": {
         "color_scheme": "scheme-1",
