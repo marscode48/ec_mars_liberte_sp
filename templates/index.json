@@ -340,8 +340,8 @@
         "featured_collection_XfWgYC"
       ],
       "settings": {
-        "title": "カテゴリーから探す",
-        "heading_size": "h1",
+        "title": "Category",
+        "heading_size": "h0",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "",
