@@ -83,6 +83,98 @@
         "padding_bottom": 0
       }
     },
+    "image_with_text_i7mhqT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hwBpRB": {
+          "type": "heading",
+          "settings": {
+            "heading": "ハンドメイドへのこだわり",
+            "heading_size": "h1"
+          }
+        },
+        "text_LrqCgP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>私たちのアクセサリーはすべてハンドメイド。一つひとつがあなただけの特別な存在。唯一無二の輝きを、あなたの手に。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_r4HRjB": {
+          "type": "button",
+          "settings": {
+            "button_label": "MORE",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hwBpRB",
+        "text_LrqCgP",
+        "button_r4HRjB"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_hEXhG6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QKMdFR": {
+          "type": "heading",
+          "settings": {
+            "heading": "輝く喜びの煌めき",
+            "heading_size": "h1"
+          }
+        },
+        "text_WPiqcg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>美しいアクセサリーがもたらす喜びは言葉では表せない。身に着ける喜びは自信や幸福感をもたらし、心を満たす。それは人生の軌跡に彩りを添える。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_hXmtid": {
+          "type": "button",
+          "settings": {
+            "button_label": "MORE",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QKMdFR",
+        "text_WPiqcg",
+        "button_hXmtid"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -265,6 +357,8 @@
   "order": [
     "slideshow_KJytQ4",
     "rich_text",
+    "image_with_text_i7mhqT",
+    "image_with_text_hEXhG6",
     "featured_collection",
     "collage",
     "video",
