@@ -243,6 +243,100 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_XUcNWU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qabjJQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Recommend",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qabjJQ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_product_xY6pp4": {
+      "type": "featured-product",
+      "blocks": {
+        "text_MxTWXp": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_MWR4zR": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_cdjd8h": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_FmwYKm": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_FbxfJF": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_9Xbm9N": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_biKBVd": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_MxTWXp",
+        "title_MWR4zR",
+        "price_cdjd8h",
+        "variant_picker_FmwYKm",
+        "quantity_selector_FbxfJF",
+        "buy_buttons_9Xbm9N",
+        "share_biKBVd"
+      ],
+      "settings": {
+        "product": "earring-a",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -351,77 +445,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "featured_product_xY6pp4": {
-      "type": "featured-product",
-      "blocks": {
-        "text_MxTWXp": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_MWR4zR": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_cdjd8h": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker_FmwYKm": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_FbxfJF": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons_9Xbm9N": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_biKBVd": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_MxTWXp",
-        "title_MWR4zR",
-        "price_cdjd8h",
-        "variant_picker_FmwYKm",
-        "quantity_selector_FbxfJF",
-        "buy_buttons_9Xbm9N",
-        "share_biKBVd"
-      ],
-      "settings": {
-        "product": "earring-a",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -431,9 +454,10 @@
     "image_with_text_hEXhG6",
     "featured_collection",
     "collection_list_83aDTL",
+    "rich_text_XUcNWU",
+    "featured_product_xY6pp4",
     "collage",
     "video",
-    "multicolumn",
-    "featured_product_xY6pp4"
+    "multicolumn"
   ]
 }
