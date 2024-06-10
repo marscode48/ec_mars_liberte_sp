@@ -23,6 +23,23 @@
         "slide_NyVRxV": {
           "type": "slide",
           "settings": {
+            "heading": "All handmade",
+            "heading_size": "h1",
+            "subheading": "一つひとつの繊細なデザイン、心に響く美しさ。",
+            "button_label": "MORE",
+            "link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_pDi8k4": {
+          "type": "slide",
+          "settings": {
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -33,14 +50,33 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_4PKNfJ": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
         "slide_KtGB6g",
-        "slide_NyVRxV"
+        "slide_NyVRxV",
+        "slide_pDi8k4",
+        "slide_4PKNfJ"
       ],
       "settings": {
         "layout": "full_bleed",
