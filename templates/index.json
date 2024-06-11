@@ -115,6 +115,7 @@
         "button_r4HRjB"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Top-About-Us-C.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -161,6 +162,7 @@
         "button_hXmtid"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Top-About-Us-D.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
