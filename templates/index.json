@@ -6,6 +6,7 @@
         "slide_KtGB6g": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Top_C.jpg",
             "heading": "More Freedom",
             "heading_size": "h1",
             "subheading": "自由を纏う。手頃な価格で、すべての女性に輝きを。",
@@ -23,6 +24,7 @@
         "slide_NyVRxV": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Top_D.jpg",
             "heading": "All handmade",
             "heading_size": "h1",
             "subheading": "一つひとつの繊細なデザイン、心に響く美しさ。",
