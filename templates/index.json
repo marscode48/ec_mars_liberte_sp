@@ -216,23 +216,23 @@
             "collection": "bracelets"
           }
         },
-        "featured_collection_ybt9Ty": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "earrings"
-          }
-        },
         "featured_collection_XfWgYC": {
           "type": "featured_collection",
           "settings": {
             "collection": "necklaces"
           }
+        },
+        "featured_collection_ybt9Ty": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "earrings"
+          }
         }
       },
       "block_order": [
         "featured_collection_mbqhwF",
-        "featured_collection_ybt9Ty",
-        "featured_collection_XfWgYC"
+        "featured_collection_XfWgYC",
+        "featured_collection_ybt9Ty"
       ],
       "settings": {
         "title": "Category",
