@@ -34,7 +34,7 @@
   }
 }
 /* =============================================
-/  Blog - slim
+/  Blog - slim(News)
 /============================================ */
 .list-style-none {
   list-style: none;
@@ -54,6 +54,13 @@
     flex-basis: 10em;
   }
 }
+/* =============================================
+/  Category(Collection)
+/============================================ */
+.collection-categorytop img {
+  opacity: 0.5;
+}
+
 .collection-categorytop {
   height: 35vh;
   min-height: 380px;
@@ -73,7 +80,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 1;
-  opacity: 0.65;
+  opacity: 0.5;
 }
 .collection-categorytop__inner {
   z-index: 2;
@@ -83,7 +90,7 @@
 }
 
 /* =============================================
-/  article
+/  article(Story）
 /============================================ */
 #story-top.article-template__hero-container {
   max-width: 100%;

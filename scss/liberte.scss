@@ -39,7 +39,7 @@
 }
 
 /* =============================================
-/  Blog - slim
+/  Blog - slim(News)
 /============================================ */
 .list-style-none {
   list-style: none;
@@ -61,6 +61,12 @@
   }
 }
 
+/* =============================================
+/  Category(Collection)
+/============================================ */
+.collection-categorytop img {
+  opacity: 0.5;
+}
 
 .collection-categorytop {
   height: 35vh;
@@ -82,7 +88,7 @@
     height: 100%;
     object-fit: cover;
     z-index: 1;
-    opacity: 0.65;
+    opacity: 0.5;
   }
 
   &__inner {
@@ -94,7 +100,7 @@
 }
 
 /* =============================================
-/  article
+/  article(Story）
 /============================================ */
 #story-top.article-template__hero-container {
   max-width: 100%;
