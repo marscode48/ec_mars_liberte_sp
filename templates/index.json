@@ -346,7 +346,7 @@
       "settings": {
         "heading": "NEWS",
         "heading_size": "h1",
-        "blog": "ニュース",
+        "blog": "news",
         "post_limit": 3,
         "color_scheme": "",
         "show_date": true,
