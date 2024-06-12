@@ -6,9 +6,154 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_qMwxAf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XKGLLK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome!",
+            "heading_size": "h1"
+          }
+        },
+        "text_FWWG9T": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ようこそ、Mars Liberteへ！私たちは、アクセサリーに自由をもたらすことを目指して設立されたWeb限定のジュエリーショップです。20代から30代の女性をターゲットに、ハンドメイドの高品質なアクセサリーをリーズナブルな価格で提供しています。個性を引き立てるデザインと細部へのこだわりを大切にし、どんなシーンでも輝きを放つジュエリーをお届けします。自由に、自分らしく、美しさを楽しむためのアクセサリーを、ぜひMars Liberteで見つけてください。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XKGLLK",
+        "text_FWWG9T"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About_Us_B.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_pJgncA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iPk4wD": {
+          "type": "heading",
+          "settings": {
+            "heading": "All Handmade",
+            "heading_size": "h1"
+          }
+        },
+        "text_rqKkgU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>私たちは、すべての商品を職人の手で丁寧に作り上げるハンドメイドジュエリーショップです。他では手に入らない、誰とも被らないあなただけのジュエリーをお届けします。個性を大切にするあなたに、特別な一品を見つけていただけるよう、心を込めて制作しています。自分らしさを表現するアクセサリーをお探しなら、Mars Liberteでぜひご覧ください。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iPk4wD",
+        "text_rqKkgU"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About_Us_E.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_aiAi4r": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BrFNFn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Designer",
+            "heading_size": "h1"
+          }
+        },
+        "text_Bhc6Tk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mars Liberteのデザインを手掛けるのは、旅好きなデザイナー、〇〇です。〇〇は、デザイナー専門学校を卒業後、パリでデザインを学びました。各地を旅しながら得たインスピレーションを元に、独自の感性でジュエリーを創り出しています。彼女の作品は、シンプルでありながらも個性的なデザインが特徴で、他では手に入らない特別な一品ばかりです。〇〇の手作りジュエリーで、あなたのスタイルに新たな輝きを加えてください。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BrFNFn",
+        "text_Bhc6Tk"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About_Us_F.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_HcnfzV": {
+      "type": "rich-text",
+      "blocks": {
+        "button_V9kxmL": {
+          "type": "button",
+          "settings": {
+            "button_label": "アイテム一覧へ",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_V9kxmL"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_qMwxAf",
+    "image_with_text_pJgncA",
+    "image_with_text_aiAi4r",
+    "rich_text_HcnfzV"
   ]
 }
