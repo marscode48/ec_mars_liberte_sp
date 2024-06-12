@@ -18,29 +18,31 @@
     }
   {%- endstyle -%}
 
-  {%- if section.settings.title != blank -%}
-    <h3 class="title {{ section.settings.heading_size }}">
-      {{section.settings.title}}
-    </h3>
-  {%- endif -%}
-
-  {%- for block in section.blocks -%}
-    {%- case block.type -%}
-      {%- when 'description' -%}
-        {%- if product.description != blank -%}
-          <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-            {{ product.description }}
-          </div>
-        {%- endif -%}
-      {%- when 'textblock' -%}
-        {%- if block.settings.text != blank -%}
-          <div class="col2list" {{ block.shopify_attributes }} >
-            <p class="col2list_heading">{{ block.settings.heading }}</p>
-            <div class="col2list_text">{{ block.settings.text }}</div>
-          </div>
-        {%- endif -%}
-    {%- endcase -%}
-  {%- endfor -%}
+  <div class="page-width">
+    {%- if section.settings.title != blank -%}
+      <h3 class="title {{ section.settings.heading_size }}">
+        {{section.settings.title}}
+      </h3>
+    {%- endif -%}
+  
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'description' -%}
+          {%- if product.description != blank -%}
+            <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+              {{ product.description }}
+            </div>
+          {%- endif -%}
+        {%- when 'textblock' -%}
+          {%- if block.settings.text != blank -%}
+            <div class="col2list" {{ block.shopify_attributes }} >
+              <p class="col2list_heading">{{ block.settings.heading }}</p>
+              <div class="col2list_text">{{ block.settings.text }}</div>
+            </div>
+          {%- endif -%}
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
 </section>
 
 
