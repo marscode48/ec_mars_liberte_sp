@@ -137,4 +137,14 @@
 }
 .metafields-product img {
   max-width: 100%;
+}
+
+/* =============================================
+/  footer
+/============================================ */
+@media screen and (min-width: 750px) {
+  .footer .footer__blocks-wrapper {
+    -moz-column-gap: 20rem;
+         column-gap: 20rem;
+  }
 }/*# sourceMappingURL=liberte.css.map */

@@ -149,3 +149,12 @@
     max-width: 100%;
   }
 }
+
+/* =============================================
+/  footer
+/============================================ */
+@media screen and (min-width: 750px) {
+  .footer .footer__blocks-wrapper {
+    column-gap: 20rem;
+  }
+}
